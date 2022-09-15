@@ -2,6 +2,11 @@
 
 docker build \
     --build-arg=LTS=22.04 \
+    --build-arg=OPENBLAS_VERSION=0.3.21 \
+    -t soulteary/milvus-openblas:0.3.21-intel-x86-ubuntu-22.04 .
+
+docker build \
+    --build-arg=LTS=22.04 \
     --build-arg=OPENBLAS_VERSION=0.3.20 \
     -t soulteary/milvus-openblas:0.3.20-intel-x86-ubuntu-22.04 .
 

@@ -23,6 +23,7 @@ docker pull soulteary/milvus-openblas:0.3.20-intel-x86-ubuntu-18.04
 Image Size: 34.95MB ~ 47.25MB
 
 ```bash
+docker pull soulteary/milvus-openblas:0.3.21-amd-zen-ubuntu-22.04
 docker pull soulteary/milvus-openblas:0.3.20-amd-zen-ubuntu-22.04
 docker pull soulteary/milvus-openblas:0.3.20-amd-zen-ubuntu-20.04
 docker pull soulteary/milvus-openblas:0.3.20-amd-zen-ubuntu-18.04
